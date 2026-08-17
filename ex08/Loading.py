@@ -14,6 +14,7 @@ import os
 
 # like original with ███
 def ft_tqdm(lst: range) -> None:
+    ''' '''
     total = len(lst)
     width = os.get_terminal_size().columns - 5 - \
         (4 + (2 * len(str(total)))) - 26
