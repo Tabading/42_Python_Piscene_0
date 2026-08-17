@@ -1,0 +1,19 @@
+
+def NULL_not_found(object: any) -> int:
+	#your code here
+	t = type(object)
+
+	if object is None:
+		print(f'Nothing: {object} {t}')
+	elif object != object:
+		print(f'Cheese: {object} {t}')
+	elif t == int and object == 0:
+		print(f'Zero: {object} {t}')
+	elif object == '':
+		print(f'Empty: {t}')
+	elif t == bool and object == False:
+		print(f'Fake: {object} {t}')
+	else:
+		print("Type not Found")
+		return 1
+	return 0
