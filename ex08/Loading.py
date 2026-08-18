@@ -14,7 +14,13 @@ import os
 
 # like original with ███
 def ft_tqdm(lst: range) -> None:
-    ''' '''
+    ''' Decorate an iterable object, returning an iterator which acts exactly
+    like the original iterable, but prints a dynamically updating
+    progress bar every time a value is requested.
+
+    Returns
+    -------
+    out  : decorated iterator. '''
     total = len(lst)
     width = os.get_terminal_size().columns - 5 - \
         (4 + (2 * len(str(total)))) - 26
