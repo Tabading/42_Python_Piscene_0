@@ -17,6 +17,7 @@
         - [Ex09](#ex09)
 - [Instructions](#instructions)
     - [Compilation](#compilation)
+    - [Norm](#norm)
 - [Resources](#resources)
     - [KI Usage](#ki-usage)
 
@@ -39,7 +40,6 @@ that you were asked to test.
 - All your functions must have documentation (\_\_doc\_\_)
 - Your code must follow the norm
     - pip install flake8
-    - python3 -m flake8 file.py
 
 ## Mandetory Modules
 
@@ -117,6 +117,19 @@ Python packages are a way to organize and structure code by grouping related mod
 - **Module**: A single Python file containing reusable code (e.g., math.py).
 - **Package**: A directory containing modules and a special \_\_init\_\_.py file.
 - **Sub-Packages**: Packages nested within other packages for deeper organization.
+
+# Instructions
+
+### Compilation
+
+    python3 *.py
+
+for ex09 look at [How to Test](ex09/README.md#how-to-test)
+
+### Norm 
+
+    python3 -m flake8 *.py
+
 
 # Resources
 ex00:
